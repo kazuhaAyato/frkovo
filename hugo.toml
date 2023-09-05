@@ -1,0 +1,72 @@
+baseurl = "https://www.frkovo.cn"
+languageCode = "zh-cn"
+theme = "hello-4s3ti"
+paginate = 5
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "orange"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = false
+
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
+
+  # set all headings to their default size (depending on browser settings)
+  # it's set to `true` by default
+  # oneHeadingSize = false
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.cn]
+    languageName = "简体中文"
+    title = "FrkのBlog"
+    subtitle = "成风破浪会有时 直挂云帆济沧海"
+    owner = "Frkovo"
+    keywords = "FrkのBlog"
+    copyright = "copyright © Frkovo 2023"
+    menuMore = "显示更多"
+    readMore = "继续阅读"
+    readOtherPosts = "看看别的"
+    missingContentMessage = "很抱歉，但是这篇内容我真的删了。"
+    missingBackButtonLabel = "回家"
+
+    [languages.cn.params.logo]
+      logoText = "FrkのBlog"
+      logoHomeLink = "/"
+
+    [languages.cn.menu]
+      [[languages.cn.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.cn.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
