@@ -1,6 +1,6 @@
 baseurl = "https://www.frkovo.cn"
 languageCode = "zh-cn"
-theme = "hello-4s3ti"
+theme = "hugo-theme-bootstrap"
 paginate = 5
 defaultContentLanguage = "cn"
 defaultContentLanguageInSubdir = true
