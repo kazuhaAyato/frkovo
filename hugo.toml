@@ -65,9 +65,5 @@ defaultContentLanguageInSubdir = true
     [languages.cn.menu]
       [[languages.cn.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "关于"
         url = "/about"
-      [[languages.cn.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"

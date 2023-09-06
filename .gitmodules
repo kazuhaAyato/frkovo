@@ -1,3 +1,6 @@
 [submodule "themes/hello-4s3ti"]
 	path = themes/hello-4s3ti
 	url = https://ghproxy.com/https://github.com/4s3ti/hugo-theme-hello-4s3ti.git
+[submodule "themes/hugo-theme-bootstrap"]
+	path = themes/hugo-theme-bootstrap
+	url = https://ghproxy.com/github.com/razonyang/hugo-theme-bootstrap
